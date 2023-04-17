@@ -1,2 +1,2 @@
 #!/bin/bash
-parent_dir=$(dirname$(pwd)) *.html: 'if [ -e "parent_dir/$file" ]' cp "$file" $parent_dir"
+cp -un *.html ../
